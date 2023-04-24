@@ -16,7 +16,7 @@ ul {
     background-color: grey;
     /* remove browser default settings */
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     overflow: hidden;
     }
 
@@ -31,7 +31,7 @@ li a {
     }
     /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #c4e988;
+    background-color: #b4bbb1;
     }
 .active {
     background-color: #0daf74;
@@ -45,7 +45,7 @@ li a:hover {
     background-color: #EBE5DF;
     display: grid;
     padding: 10px;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto;
     position: sticky;
     height: 700px;
     
@@ -72,4 +72,9 @@ footer{
 
   
     
+}
+button{
+    border-radius: 10px;
+    background-color: #b4bbb1;
+    box-sizing: border-box;
 }
