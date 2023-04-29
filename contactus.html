@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+<link rel="stylesheet" href="main.css">
+
+<style>
+    
+    /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-left: 5px;
+  margin-bottom: 20px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+form{
+    margin: 10px;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #2dda9b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+    <nav class="myDiv">
+        <ul >
+            <h3 style="float: left; padding-left: 15px; color: rgb(163, 16, 16);">Jailbird</h3>
+            <li><a  href="reviews.html">Reviews</a></li>
+            <li><a class="active" href="contactus.html">Contact Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a  href="index.html">Home</a></li>
+    
+    
+          </ul>
+      
+    </nav>
+    <h1 style="text-align: center;">Contact Us</h1>
+        <div style="text-align: left; padding: 0 10px; ">
+            <p>We'd love to hear from you!</p>
+            <p>Just fill out the form bello and we'll get back to you ASAP.</p>
+            <p>Email: <a href="mailto: jailbird@outlook.com">jailbird@outlook.com</a></p>
+            <p>Call: <a href="tel:+254112578965">+254112578965</a>  </p>
+            
+        </div>
+        
+    
+    <div>
+        <form action="">
+            <label for="Name">Name</label>
+            <input type="text" id="name" name="Name" placeholder="Your Name">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="Email" id="" placeholder="Your Email">
+            <label for="phonenumber">Phone Number</label>
+            <input type="number" name="phonenumber" placeholder="Your Phone no."> <br>
+            <label for="subject">Message</label>
+            <textarea name="message" id="subject" placeholder="write us a message..." cols="30" rows="10"></textarea>
+
+            <input type="submit" value="send">
+        </form>
+
+    </div>
+
+    <footer>
+        <div class="footer-copyright text-center py-3">©:FM.
+            <a href = "mailto:fridahmbithe@gmail.com?subject = Feedback&body = Message">
+                Feedback
+                </a>
+            <li style="float: right; list-style-type: none; padding: 5px;">Privacy Policy</li>
+            <li style="float: right; list-style-type: none; padding: 5px;">Terms & Conditions</li>
+          </div>
+
+      </footer>
+</body>
+</html>

@@ -1,9 +1,9 @@
-main{
+body{
     margin: 0;
     padding: 0;
-    /* border-top: 1px solid black; */
     background-color: #EBE5DF;
     border-radius: 10px;
+    width: 100%;
    
 }
 
@@ -29,7 +29,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     }
-    /* Change the link color to #111 (black) on hover */
+    /* Change the link color on hover */
 li a:hover {
     background-color: #b4bbb1;
     }
@@ -59,9 +59,10 @@ li a:hover {
 }
 .grid-item > img{
     border-radius: 8px;
-    height: 60%;
+    height: 400px;
    
 }
+
 footer{
     
     border: 1px solid #757575;
@@ -70,6 +71,7 @@ footer{
     height: 40px;
     padding: 5px;
 
+
   
     
 }
@@ -77,4 +79,12 @@ button{
     border-radius: 10px;
     background-color: #b4bbb1;
     box-sizing: border-box;
+    padding: 5px;
+}
+@media screen and (max-width: 600px) {
+    .col{
+        flex: 100%;
+        max-width: 100%;
+    }
+    
 }
